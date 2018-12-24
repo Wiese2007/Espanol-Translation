@@ -1,0 +1,123 @@
+{
+   "kingdom": {
+      "kingdom_name": "Hijos de Rayya",
+      "quote": "Meditación, meditación, meditación: Orden que trae orden a los demás, salud para todos.",
+      "long_description": "Gente del desierto que aprendió muy pronto a sobrevivir, se necesitan mutuamente. Ahora, los visitantes, encuentran anfitriones generosos con acceso a los vienes de todo el mundo.",
+      "post_selection_description": ", una sociedad encantadora, comerciantes astutos."
+   },
+   "jobs": {
+      "potter": {
+         "potter_description": {
+            "requirements": "Necesario Cortador de Arcilla."
+         },
+         "recipes": {
+            "mason_clay_chisel_recipe": {
+               "description": "El alfarero usa arcilla para unir madera y piedra",
+               "recipe_name": "Cincel del cantero",
+               "flavor": "'Los hornos de todas las cosas: testigos de cómo la arcilla será, por la alquimia del Mono, crecerá como la piedra' --Maestra Erisa"
+            }
+         }
+      },
+      "mason": {
+         "mason_description": {
+            "requirements": "Necesario un alfarero de nivel 2 y un cincel del cantero, creado por el alfarero."
+         }
+      },
+      "cook": {
+         "recipes": {
+            "golden_gourd_curry_recipe": {
+               "description": "¿Son las calabazas más comestibles cuando se cocinan?",
+               "recipe_name": "Curry de calabaza áurea",
+               "flavor": "TODO(flavor!)"
+            },
+            "flat_bread_recipe": {
+               "description": "El pan sin levadura hecho de harina de maíz",
+               "recipe_name": "Pan plano"
+            },
+            "meat_tagine_recipe": {
+               "description": "Carnes y verduras a fuego lento en una olla de arcilla",
+               "recipe_name": "Tajín de estofado de carne"
+            },
+            "vegetable_tagine_recipe": {
+               "description": "Verduras a fuego lento en una olla de arcilla",
+               "recipe_name": "Tajín de estofado de verdura"
+            }
+         }
+      }
+   },
+   "data": {
+      "rayyas_children_population": {
+         "display_name": "Hijos de Rayya"
+      },
+      "gm": {
+         "campaigns": {
+            "trader": {
+               "iskender_caravan_1": {
+                  "shop_info": {
+                     "name": "Caravana de Iskender",
+                     "title": "¡La caravana de Iskender vuelve!"
+                  }
+               },
+               "iskender_caravan_2": {
+                  "shop_info": {
+                     "name": "Caravana de Iskender",
+                     "title": "¡La caravana de Iskender vuelve con más cosas!"
+                  }
+               },
+               "iskender_caravan_3": {
+                  "shop_info": {
+                     "name": "Caravana de Iskender",
+                     "title": "¡La caravana de Iskender vuelve!"
+                  }
+               },
+               "starting_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "000": "Jeje, no hay nada como ver cosas de marca, ¿eh? Con tu duro trabajo, esta tierra desolada será pronto nexo de riqueza y prosperidad. Volveremos mañana, con toda la tienda, pero mientras tanto, aquí está algo para comenzar enviado por sus familias:",
+                              "001": "El Mono los proteja, amigos. Siempre es un placer ver gente así. De acuerdo a su contrato, volveremos mañana con la tienda. Mientras tanto, aquí están suministros básicos:",
+                              "002": "Iskender siempre buscará nuevos lugares para descansar entre rutas. Estamos encantados de verlos por aquí, amigos. Vamos a volver con la tienda mañana, aquí tienen unos productos para ir empezando:",
+                              "003": "Todo listo para empezar, ¡eh! Mis amigos, el desierto siempre da la bienvenida a todos sus hijos. Volveremos mañana para ver cómo están, pero mientras tanto, sus padres enviaron esto:",
+                              "004": "Ajá, un nuevo social potencial de Iskender. Tenemos que volver mañana con toda la tienda, pero te daré algo para empezar, y ya verás en lo que lo puedes convertir para nostros, ¿vale?"
+                           },
+                           "bulletin_title": "Iskender aparece",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Muchas gracias, ¡horando Elder!"
+                        }
+                     }
+                  }
+               },
+               "stonecutter_shop": {
+                  "shop_info": {
+                     "name": "Tierras de Vosker Saji",
+                     "title": "Un maestro cantero se acerca"
+                  }
+               },
+               "tannery_shop": {
+                  "shop_info": {
+                     "name": "Pieles y mantas de Rin",
+                     "title": "Un vagón de mercacías de animales se acerca"
+                  }
+               },
+               "woodcutter_shop": {
+                  "shop_info": {
+                     "name": "Bienes del Lejano Oeste de Rajin",
+                     "title": "Tienda exótica de maderas raras llega"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "gizmos": {
+         "rc_camp_standard": {
+            "rc_camp_standard_ghost": {
+               "display_name": "Bandera de los Hijos de Rayya",
+               "description": "Parece como si estuvieras en casa"
+            }
+         }
+      }
+   }
+}
